@@ -11,9 +11,9 @@ int main(void)
 	float floatType;
 	double doubleType;
 	char charType;
-	printf("size of int: %1d bytes\n",sizeof(integerType));
-	printf("size of float: %1d bytes\n",sizeof(floatType));
-	printf("size of double: %1d bytes\n",sizeof(doubleType));
-	printf("size of char: %1d byte\n",sizeof(charType));
+	printf("Size of int: %1d bytes\n",sizeof(integerType));
+	printf("Size of float: %1d bytes\n",sizeof(floatType));
+	printf("Size of double: %1d bytes\n",sizeof(floatType));
+	printf("Size of char: %1d byte\n",sizeof(charType));
 	return (0);
 }
