@@ -6,7 +6,7 @@
  * main - assign a random number to the variable n each time it is executed 
  * and print out based on conditiont
  *
- * Return:Always o (Success)
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
