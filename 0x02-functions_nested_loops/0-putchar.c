@@ -1,31 +1,20 @@
-int _putchar(char c);
+#include <stdio.h>
 
-void print_alphabet(void);
+/**
+ * main - Entry as a message.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int count, sz;
 
-void print_alphabet_x10(void);
-
-int _islower(int c);
-
-int _isalpha(int c);
-
-int print_sign(int n);
-
-int _abs(int n);
-
-int print_last_digit(int n);
-
-void jack_bauer(void);
-
-void times_table(void);
-
-int add(int a, int b);
-
-void print_to_98(int n);
-
-void print_times_table(int n);
-
-
-#endif
-
-
-main.h file
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
+	{
+		_putchar(str[count]);
+	}
+	_putchar('\n');
+	return (0);
+}
